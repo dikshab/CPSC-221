@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/token_test.dir/token_test.cc.o  -o token_test  gmock/libgmock_main.a 

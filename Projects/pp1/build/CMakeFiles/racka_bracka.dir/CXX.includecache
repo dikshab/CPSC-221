@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/././token.h
+string
+-
+ostream
+-
+
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/././token_stack.h
+./token.h
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/./././token.h
+
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/./linkedliststack.h
+./token_stack.h
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/././token_stack.h
+./token.h
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/././token.h
+
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/linkedliststack.cc
+cassert
+-
+./linkedliststack.h
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/./linkedliststack.h
+

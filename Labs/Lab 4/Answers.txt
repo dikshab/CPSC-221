@@ -1,0 +1,9 @@
+Question 1
+
+n(nlgn + 1) => n(nlgn)
+Yes, because n(nlgn + 1) = n(nlgn) + n, and the first term grows faster and thus will dominate the expression
+
+n(nlgn + 1) => n(n + 1)
+No, because nlgn 
+
+n(nlgn + 1) => nlgn + 1

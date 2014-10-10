@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/linkedliststack_test.dir/linkedliststack_test.cc.o CMakeFiles/linkedliststack_test.dir/linkedliststack.cc.o  -o linkedliststack_test  gmock/libgmock_main.a 

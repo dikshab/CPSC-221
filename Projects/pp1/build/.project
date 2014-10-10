@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>RackaBrackaStack-Debug@build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/RackaBrackaStack</name>
+			<type>2</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src</location>
+		</link>
+		<link>
+			<name>[Subprojects]/gmock</name>
+			<type>2</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0</location>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/gtest</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Source Files/balance_checker_test.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/balance_checker_test.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Source Files/balance_checker.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/balance_checker.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Source Files/racket_tokenizer.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Source Files/my_stack.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/my_stack.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/token.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/tokenizer.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/tokenizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/racket_tokenizer.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/balance_checker.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/balance_checker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/token_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/builtin_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/builtin_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Header Files/my_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/my_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] balance_checker_test/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Source Files/linkedliststack_test.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/linkedliststack_test.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Source Files/linkedliststack.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/linkedliststack.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Header Files/token.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Header Files/token_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Header Files/linkedliststack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/linkedliststack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] linkedliststack_test/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Source Files/racka_bracka.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racka_bracka.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Source Files/racket_tokenizer.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Source Files/balance_checker.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/balance_checker.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Source Files/linkedliststack.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/linkedliststack.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Source Files/my_stack.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/my_stack.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/racket_tokenizer.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/tokenizer.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/tokenizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/token.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/balance_checker.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/balance_checker.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/linkedliststack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/linkedliststack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/my_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/my_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/builtin_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/builtin_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Header Files/token_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racka_bracka/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Source Files/racket_tokenizer_test.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer_test.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Source Files/racket_tokenizer.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Header Files/token.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Header Files/racket_tokenizer.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/racket_tokenizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Header Files/tokenizer.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/tokenizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] racket_tokenizer_test/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Source Files/stack_test.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/stack_test.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Source Files/my_stack.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/my_stack.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Header Files/token.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Header Files/builtin_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/builtin_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Header Files/token_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Header Files/my_stack.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/my_stack.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] stack_test/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/Source Files/token_test.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token_test.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/Header Files/token.h</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/token.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] token_test/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files/gmock-all.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/src/gmock-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gmock-all.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/src/gmock-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gmock_main.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/src/gmock_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp1/src/gmock-1.7.0/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

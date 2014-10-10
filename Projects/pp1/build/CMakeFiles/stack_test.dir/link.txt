@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/stack_test.dir/stack_test.cc.o CMakeFiles/stack_test.dir/my_stack.cc.o  -o stack_test  gmock/libgmock_main.a 
