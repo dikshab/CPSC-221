@@ -86,7 +86,7 @@ Node* find_parent(Node* rootNode, Node* node) {
 /**
  * Finds the maximum key in tree at 'root'
  */
-Node* maxNode(Node* rootNode) {
+Node*& maxNode(Node*& rootNode) {
   if (rootNode->right == nullptr) {
     return rootNode;
   }
@@ -98,9 +98,9 @@ Node* maxNode(Node* rootNode) {
 /**
  * Finds predecessor of tree at 'root'
  */
-Node* predec(Node* rootNode) {
+Node*& predec(Node*& rootNode) {
   if (rootNode->left == nullptr) {
-    return nullptr;
+    return rootNode->left;
   }
   else {
     return maxNode(rootNode->left);
@@ -135,21 +135,21 @@ bool delete_node(Node*& root, KType key) {
 		}
 		else
 			root = NULL;
+
+		// free target
+		delete target;
+		return true;
 	}
 
 	// case 2: target has two children
 	else if (target->left != NULL && target->right != NULL) {
-	  Node* predec_node = predec(target);
-		if (parent != nullptr) {
-		  if (parent->left == target) {
-		    parent->left = predec_node;
-		  }
-		  else {
-		    parent->right = predec_node;
-		  }
-		}
-		predec_node->left = target->left;
-		predec_node->right = target->right;
+    Node*& predec_node(predec(target));
+    KType predec_key = predec_node->key;
+
+    delete_node(root, predec_node->key);
+
+    target->key = predec_key;
+    return true;
 	}
 
 	// case 3: target has only left child
@@ -163,6 +163,10 @@ bool delete_node(Node*& root, KType key) {
 		}
 		else
 			root = target->left;
+
+		// free target
+		delete target;
+		return true;
 	}
 
 	// case 4: target has only right child
@@ -176,10 +180,11 @@ bool delete_node(Node*& root, KType key) {
 		}
 		else
 			root = target->right;
-	}
 
-	delete target;
-	return true;
+		// free target
+		delete target;
+		return true;
+	}
 }
 
 /**
@@ -213,7 +218,7 @@ int numNodes( Node* root ) {
 	  return 0;
 	}
 	else {
-	  return 1 + numNodes(root->left) + numNodes(root->right);
+	  return numNodes(root->left) + numNodes(root->right) + 1;
 	}
 }
 
@@ -221,10 +226,10 @@ int numNodes( Node* root ) {
  * Returns the number of leaves in the tree rooted at root.
  */
 int numLeaves( Node* root ) {
-  if (root == nullptr) {
-    return 0;
-  }
-  else if (root->left == nullptr && root->right == nullptr) {
+	if (root == nullptr) {
+	  return 0;
+	}
+	else if (root->left == nullptr && root->right == nullptr) {
 	  return 1;
 	}
 	else {
@@ -240,7 +245,7 @@ int height( Node* x ) {
 	  return -1;
 	}
 	else {
-	  return 1 + std::max(height(x->left), height(x->right));
+	  return std::max(height(x->left), height(x->right)) + 1;
 	}
 }
 
@@ -248,29 +253,29 @@ int height( Node* x ) {
  * Returns the depth of node x in the tree rooted at root.
  */
 int depth( Node* x , Node* root ) {
-  if (x == nullptr) {
-    return -1000000;
-  }
-  else if (x->key == root->key) {
-    return 0;
-  }
-  else {
-    return 1 + depth(x, (x->key < root->key) ? root->left : root->right);
-  }
+	if (x == nullptr || find(x->key, root) == nullptr) {
+	  return -1;
+	}
+	else if (x->key == root->key) {
+	  return 0;
+	}
+	else {
+	  return 1 + depth(x, (x->key < root->key) ? root->left : root->right);
+	}
 }
 
 /**
  * Traverse a tree rooted at rootNode in-order and use 'v' to visit each node.
  */
 void in_order( Node*& rootNode, int level, Visitor& v ) {
-	if (rootNode == nullptr) {
-	  return;
-	}
-	else {
-	  in_order(rootNode->left, level + 1, v);
-	  v.visit(rootNode, level);
-	  in_order(rootNode->right, level + 1, v);
-	}
+  if (rootNode == nullptr) {
+    return;
+  }
+  else {
+    in_order(rootNode->left, level + 1, v);
+    v.visit(rootNode, level);
+    in_order(rootNode->right, level + 1, v);
+  }
 }
 
 /**
@@ -446,7 +451,7 @@ void runTests(Node* tree, std::vector<int> keys) {
  * Runs custom code if given command line arguments, otherwise runs tests.
  */
 int main( int argc, char *argv[] ) {
-	Node *tree = nullptr;
+	Node *tree = NULL;
 
 	bool custom = argc > 1;
 	if (custom) {	// if keys given on command line, run tests
