@@ -1,0 +1,135 @@
+Please enter a length between 2 and 28: 
+So far, you've got: _______________
+You have 15 guesses left.
+
+Letters remaining to guess: a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'a' was not in the word.
+So far, you've got: _______________
+You have 14 guesses left.
+
+Letters remaining to guess: b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'e' was not in the word.
+So far, you've got: _______________
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'i' was in the word!
+So far, you've got: ___________i___
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'o' was in the word!
+So far, you've got: __o___o__o_i___
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'u' was not in the word.
+So far, you've got: __o___o__o_i___
+You have 12 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'y' was not in the word.
+So far, you've got: __o___o__o_i___
+You have 11 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'r' was in the word!
+So far, you've got: _ro___o__o_i___
+You have 11 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q s t v w x z 
+
+What (lowercase) letter would you like to guess? The letter 'q' was not in the word.
+So far, you've got: _ro___o__o_i___
+You have 10 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p s t v w x z 
+
+What (lowercase) letter would you like to guess? The letter 'w' was not in the word.
+So far, you've got: _ro___o__o_i___
+You have 9 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p s t v x z 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+So far, you've got: _ro___o__o_i___
+You have 8 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p s t v x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'p' was in the word!
+So far, you've got: _ro___o__opi___
+You have 8 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n s t v x z 
+
+What (lowercase) letter would you like to guess? The letter 'k' was not in the word.
+So far, you've got: _ro___o__opi___
+You have 7 guesses left.
+
+Letters remaining to guess: b c d f g h j l m n s t v x z 
+
+What (lowercase) letter would you like to guess? The letter 'j' was not in the word.
+So far, you've got: _ro___o__opi___
+You have 6 guesses left.
+
+Letters remaining to guess: b c d f g h l m n s t v x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'n' was in the word!
+So far, you've got: _ron__o__opi___
+You have 6 guesses left.
+
+Letters remaining to guess: b c d f g h l m s t v x z 
+
+What (lowercase) letter would you like to guess? The letter 'l' was not in the word.
+So far, you've got: _ron__o__opi___
+You have 5 guesses left.
+
+Letters remaining to guess: b c d f g h m s t v x z 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+So far, you've got: _ron__o__opi___
+You have 4 guesses left.
+
+Letters remaining to guess: b c d f g h m s t v x z 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+So far, you've got: _ron__o__opi___
+You have 3 guesses left.
+
+Letters remaining to guess: b c d f g h m s t v x z 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+So far, you've got: _ron__o__opi___
+You have 2 guesses left.
+
+Letters remaining to guess: b c d f g h m s t v x z 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+So far, you've got: _ron__o__opi___
+You have 1 guesses left.
+
+Letters remaining to guess: b c d f g h m s t v x z 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+Looks like I won. Huh.. what a surprise.
+Better luck next time. My word was: bronchoscopists

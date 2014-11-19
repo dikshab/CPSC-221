@@ -1,0 +1,93 @@
+Please enter a length between 2 and 28: 
+So far, you've got: ____________________________
+You have 15 guesses left.
+
+Letters remaining to guess: a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'a' was in the word!
+So far, you've got: __________a________aa___a___
+You have 15 guesses left.
+
+Letters remaining to guess: b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'e' was in the word!
+So far, you've got: e____e_e__a___e_e__aa_e_a_e_
+You have 15 guesses left.
+
+Letters remaining to guess: b c d f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'i' was in the word!
+So far, you've got: e____e_e_ia_i_e_e__aa_e_a_e_
+You have 15 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'o' was not in the word.
+So far, you've got: e____e_e_ia_i_e_e__aa_e_a_e_
+You have 14 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'u' was not in the word.
+So far, you've got: e____e_e_ia_i_e_e__aa_e_a_e_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'y' was in the word!
+So far, you've got: e__y_e_e_ia_i_e_e__aa_e_a_e_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'l' was in the word!
+So far, you've got: e__yle_e_ia_i_e_e__aa_e_a_e_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k m n p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'm' was in the word!
+So far, you've got: e__yle_e_iami_e_e__aa_e_a_e_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k n p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'n' was in the word!
+So far, you've got: e__ylene_iamine_e__aa_e_a_e_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 't' was in the word!
+So far, you've got: et_ylene_iaminetet_aa_etate_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h j k p q r s v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'h' was in the word!
+So far, you've got: ethylene_iaminetet_aa_etate_
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g j k p q r s v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 's' was in the word!
+So far, you've got: ethylene_iaminetet_aa_etates
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g j k p q r v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'd' was in the word!
+So far, you've got: ethylenediaminetet_aa_etates
+You have 13 guesses left.
+
+Letters remaining to guess: b c f g j k p q r v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'c' was in the word!
+So far, you've got: ethylenediaminetet_aacetates
+You have 13 guesses left.
+
+Letters remaining to guess: b f g j k p q r v w x z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'r' was in the word!
+My word was: ethylenediaminetetraacetates
+You beat me?!  Try that again!

@@ -1,0 +1,11 @@
+Recurrence relation: c(n) =  Σ_(m=1)^(n) (n-1 + c(m-1) + c(n-m)) / n
+
+Average case: O(n log n)
+Worst case:   O(n^2), unlikely because would require choosing the min/max
+              element for each pivot, but because the pivot is randomized, it
+              it would be very difficult for the extreme values to be chosen
+              consistently
+Properties: Not in-place, as it uses logarithmic additional memory to store the
+            stack frames of the recursive calls.
+            Not stable, as the swap does not account for equal keys, and does
+            not preserve order.

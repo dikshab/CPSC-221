@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+EVIL_HANGMAN="./evil_hangman"
+
+if (( $# < 1 ))
+then
+    echo "No explicit path provided to evil_hangman executable.  Using ./evil_hangman."
+else
+    EVIL_HANGMAN="$1"
+fi
+
+# Checks all .in.txt files though racka_bracka against all .out.txt files.
+
+diff_results=$(for i in *.in.txt
+    do
+    name=$(basename "$i" ".in.txt")
+    reference="$name.out.txt"
+    "$EVIL_HANGMAN" <<< $(cat "$i") | diff -I 'Better luck next time.*' -  "$reference"
+    done)
+ 
+echo "Results of finding differences between your output and the sample output are below."
+echo "Successful output should be empty!  Anything that's present here shows a difference."
+echo "Note that we ignore the line where you reveal your 'actual' word to the user, since"
+echo "that is nondeterministically selected.  (It can differ from run to run.)"
+echo
+echo "$diff_results"
+echo
+
+
+if [[ $diff_results ]]
+then
+    echo "There were differences!"
+    exit 1
+else
+    echo "Congratulations; your output and ours matched!"
+    exit 0
+fi
+

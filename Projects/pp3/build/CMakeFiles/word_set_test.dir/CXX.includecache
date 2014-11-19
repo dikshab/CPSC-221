@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp3/src/./word_set.h
+string
+-
+vector
+-
+set
+-
+stdexcept
+-
+algorithm
+-
+iterator
+-
+ostream
+-
+map
+-
+
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp3/src/word_set.cc
+./word_set.h
+/Users/calvin/Dropbox/My Documents/UBC Stuff/2014W/CPSC 221/Projects/pp3/src/./word_set.h
+sstream
+-
+random
+-
+

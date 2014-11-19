@@ -1,0 +1,101 @@
+Please enter a length between 2 and 28: 
+So far, you've got: _____
+You have 15 guesses left.
+
+Letters remaining to guess: a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'a' was not in the word.
+So far, you've got: _____
+You have 14 guesses left.
+
+Letters remaining to guess: b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'e' was not in the word.
+So far, you've got: _____
+You have 13 guesses left.
+
+Letters remaining to guess: b c d f g h i j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'i' was not in the word.
+So far, you've got: _____
+You have 12 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n o p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'o' was not in the word.
+So far, you've got: _____
+You have 11 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t u v w x y z 
+
+What (lowercase) letter would you like to guess? Congratulations! The letter 'u' was in the word!
+So far, you've got: _u___
+You have 11 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t v w x y z 
+
+What (lowercase) letter would you like to guess? The letter 'y' was not in the word.
+So far, you've got: _u___
+You have 10 guesses left.
+
+Letters remaining to guess: b c d f g h j k l m n p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? The letter 'm' was not in the word.
+So far, you've got: _u___
+You have 9 guesses left.
+
+Letters remaining to guess: b c d f g h j k l n p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? The letter 'n' was not in the word.
+So far, you've got: _u___
+You have 8 guesses left.
+
+Letters remaining to guess: b c d f g h j k l p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? The letter 'b' was not in the word.
+So far, you've got: _u___
+You have 7 guesses left.
+
+Letters remaining to guess: c d f g h j k l p q r s t v w x z 
+
+What (lowercase) letter would you like to guess? The letter 'v' was not in the word.
+So far, you've got: _u___
+You have 6 guesses left.
+
+Letters remaining to guess: c d f g h j k l p q r s t w x z 
+
+What (lowercase) letter would you like to guess? The letter 'c' was not in the word.
+So far, you've got: _u___
+You have 5 guesses left.
+
+Letters remaining to guess: d f g h j k l p q r s t w x z 
+
+What (lowercase) letter would you like to guess? The letter 'x' was not in the word.
+So far, you've got: _u___
+You have 4 guesses left.
+
+Letters remaining to guess: d f g h j k l p q r s t w z 
+
+What (lowercase) letter would you like to guess? The letter 'z' was not in the word.
+So far, you've got: _u___
+You have 3 guesses left.
+
+Letters remaining to guess: d f g h j k l p q r s t w 
+
+What (lowercase) letter would you like to guess? The letter 'l' was not in the word.
+So far, you've got: _u___
+You have 2 guesses left.
+
+Letters remaining to guess: d f g h j k p q r s t w 
+
+What (lowercase) letter would you like to guess? The letter 'p' was not in the word.
+So far, you've got: _u___
+You have 1 guesses left.
+
+Letters remaining to guess: d f g h j k q r s t w 
+
+What (lowercase) letter would you like to guess? Actually you already guessed that, and since I'm evil..
+I'll count it against you.
+
+Looks like I won. Huh.. what a surprise.
+Better luck next time. My word was: duffs
